@@ -1,5 +1,5 @@
-# PreEntrega1-Regazzoni
-### ¡HOLA!
-- Estoy trabajanso en hacer una pagina que venda productos (todavia no elegi cuales).
+### PreEntrega1-Regazzoni
+
+- Estoy trabajando en hacer una pagina que venda productos.
 - Para iniciar sesion el usuario es: *renata* Y la contraseña es: *pass123* .
-- Contiene condicionales, ciclos y una función.
+- Contiene condicionales, ciclos, funciones, objetos, arrays y los metodos de array
