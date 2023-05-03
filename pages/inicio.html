@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet"  href="/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
+
 <body>
     <h1 class="titulo">CERÁMICA</h1>
     <div class="inicio">
@@ -18,6 +22,27 @@
             </div>
         </nav>
     </div>
+
+    <h2>Nuestros productos</h2>
+    <section class="buscador">
+      <div class="buscador__div">   
+             <input type="text" id="buscarProducto" placeholder="Busca tu producto" class="buscador__input">  
+             <button class="buscador__btn"></button>            
+      </div>
+
+      <div class="padre__cate">
+        <button class="card__producto-boton" id="Velas">Velas</button>
+        <button class="card__producto-boton" id="Tazas">Tazas</button>      
+        <button class="card__producto-boton" id="Platos">Platos</button>          
+        <button class="card__producto-boton" id="Cuencos">Cuencos</button>         
+        <button class="card__producto-boton" id="Vasos">Vasos</button>          
+        <button class="card__producto-boton" id="cleanFilter">Limpiar busqueda</button>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../scripts/inicio.js"></script>
+</body>
  
 </body>
 </html>
