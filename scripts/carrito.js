@@ -54,26 +54,8 @@ const sacarDelCarrito = (productoIndex, productoID) => {
         localStorage.setItem('carrito', carritoJSON)               
         const contenedor = document.getElementById('carrito')   
         contenedor.innerHTML = ""
-
-
-     Toastify({            
-        text: "Producto eliminado",           
-        duration: 1500,            
-        gravity: "bottom",           
-        position: "right",           
-        style: {             
-               background: "linear-gradient(90deg, rgba(0,53,84,1) 30%, rgba(121,173,220,1) 83%)",      
-               color: "#fff",               
-               borderRadius: "30px",              
-                border: "solid 2px #110e82"          
-              },      
-              }).showToast()           
-              
-              hacerCarrito()        
-              
-              sumarCompra()  
-          }
-}
+         }
+ }
 
 // para vaciar todo el carrito
 let vaciarCarro = document.getElementById('vaciarCarro')
